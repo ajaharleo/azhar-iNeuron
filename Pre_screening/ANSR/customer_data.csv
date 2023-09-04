@@ -1,0 +1,10 @@
+customer_id,age,gender,email,purchases
+1001,35,M,abc@example.com,10
+1002,28,F,def@example.com,5
+1003,40,F,ghi@example.com,
+1004,45,M,jkl@example.com,8
+1005,33,M,mno@example.com,15
+1006,27,F,pqr@example.com,
+1007,50,M,stu@example.com,12
+1008,29,F,vwx@example.com,7
+1009,38,F,yza@example.com,9
