@@ -1,7 +1,7 @@
 use banking;
-create table user_activity(user_id int, activity_date date, activity_type varchar(20));
+CREATE TABLE user_activity(user_id int, activity_date date, activity_type varchar(20));
 
-insert into user_activity values(3,'2022-08-15','click'),
+INSERT INTO user_activity VALUES(3,'2022-08-15','click'),
 (2,'2022-08-14','click'),(3,'2022-08-15','login'),(2,'2022-08-14','login'),
 (3,'2022-08-15','click'),(1,'2022-08-13',''),(3,'2022-08-16','purchase'),
 (2,'2022-08-13','click'),(3,'2022-08-14',''),(2,'2022-08-14','purchase');
@@ -14,4 +14,4 @@ SELECT
         AS engagement_rate
 FROM user_activity GROUP BY activity_date ORDER BY activity_date;
 
-select * from user_activity;
+SELECT * FROM user_activity;
